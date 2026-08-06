@@ -73,11 +73,11 @@ PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" bash scripts/benchmark_cota_ablati
 **消融实验**
 
 ```bash
-PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" bash scripts/benchmark_cota_ablation_giant.sh few_shot mvtec
+PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" COTA_VARIANTS="baseline otm_full otm_decoupled calibrated_q calibrated_sum cota_safe" bash scripts/benchmark_cota_ablation_giant.sh few_shot mvtec
 ```
 
 ```bash
-PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" bash scripts/benchmark_cota_ablation_giant.sh few_shot visa
+PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" COTA_VARIANTS="baseline otm_full otm_decoupled calibrated_q calibrated_sum cota_safe" bash scripts/benchmark_cota_ablation_giant.sh few_shot visa
 ```
 
 
