@@ -87,7 +87,7 @@ PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" COTA_VARIANTS="baseline otm_full o
 
 ### Few-Shot
 
-**表1 MVTec AD 与 VisA 数据集上少样本异常检测与定位结果（%）**
+**表1 MVTec AD 与 VisA 数据集上少样本异常检测与定位结果（%），5次实验种子选的是42、43、44、45、46**
 
 | Shot | 方法 | MVTec-I-AUROC | MVTec-I-AUPR | MVTec-P-AUROC | MVTec-AU-PRO | VisA-I-AUROC | VisA-I-AUPR | VisA-P-AUROC | VisA-AU-PRO |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
