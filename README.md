@@ -49,7 +49,6 @@ cotacodes/
 │       └── utils/              # Visualization, logging
 ├── tools/
 │   └── prepare_visa.py
-├── main.py
 └── README.md
 ```
 
