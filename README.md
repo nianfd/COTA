@@ -56,11 +56,10 @@ cotacodes/
 
 ### Benchmark Scripts
 
-Scripts are provided in `scripts/` to reproduce all results.
-Edit `MVTEC_PATH` and `VISA_PATH` inside the scripts as needed.
+scripts/ 目录下提供了用于复现所有结果的脚本。请根据需要，在脚本中修改 MVTEC_PATH 和 VISA_PATH 的路径。
 
 **cota少样本实验 (1, 2, 4 Shots)**
-Selects *k* normal images per category.
+每个类别选择*k*张正常样本
 
 ```bash
 PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" bash scripts/benchmark_cota_ablation_giant.sh few_shot mvtec
