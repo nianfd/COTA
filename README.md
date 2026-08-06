@@ -61,6 +61,8 @@ scripts/ 目录下提供了用于复现所有结果的脚本。请根据需要�
 **cota少样本实验 (1, 2, 4 Shots)**
 每个类别选择*k*张正常样本
 
+注意：默认运行下面的脚本，随机种子是42，若要修改为其它种子，请同时修改benchmark_cota_ablation_giant.sh和benchmark_few_shot_giant.sh中的OTM_BANK_SEED变量。
+
 ```bash
 PYTHONPATH=./src:$PYTHONPATH K_VALUES="1 2 4" bash scripts/benchmark_cota_ablation_giant.sh few_shot mvtec
 ```
